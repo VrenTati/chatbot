@@ -1,0 +1,41 @@
+{
+  "defaultLanguageCode": "uk",
+  "timeZone": "Europe/Kaliningrad",
+  "projectNumber": 605020323734,
+  "speechToTextSettings": {
+  
+  },
+  "startFlow": "Default Start Flow",
+  "advancedSettings": {
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
+    
+    },
+    "loggingSettings": {
+    
+    }
+  },
+  "speakerIdSettings": {
+  
+  },
+  "textToSpeechSettings": {
+  
+  },
+  "genAppBuilderSettings": {
+    "engine": "projects/605020323734/locations/global/collections/default_collection/engines/healthy-chatbot_1710445926437"
+  },
+  "duplexSettings": {
+  
+  },
+  "webClientSettings": {
+  
+  }
+}

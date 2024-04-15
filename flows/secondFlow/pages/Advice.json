@@ -1,0 +1,37 @@
+{
+  "name": "81b52a34-15ff-4c85-8ffe-9769a4094e9a",
+  "displayName": "Advice",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Чим я можу допомогти?", "Чим мож бути корисний?" ]
+      },
+      "languageCode": "uk"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Bones",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Bones",
+    "name": "471a97ce-5223-4d5a-bc49-5d187c547d9b"
+  }, {
+    "intent": "Diet",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Diet",
+    "name": "c9c4240b-f7ca-48a1-9baa-a46863ba50b8"
+  }, {
+    "intent": "Nothing",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "END_FLOW_WITH_HUMAN_ESCALATION",
+    "name": "c9487539-d9f6-45cf-a237-2207390960a2"
+  } ]
+}

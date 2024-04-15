@@ -1,0 +1,13 @@
+{
+  "name": "2e422c92-e70d-4086-a6f7-da03ca6e6e82",
+  "displayName": "Diet",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  }, {
+    "id": "health_goal",
+    "entityType": "@Health_goal"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 2
+}

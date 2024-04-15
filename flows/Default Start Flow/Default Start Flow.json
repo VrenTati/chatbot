@@ -1,0 +1,75 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Вітаю! Я бот, який допоможе тобі вести здоровий спосіб життя, дізнатися цікаве та корисне про спорт та багато чого іншого! ", "Привіт! Я бот, який допоможе тобі вести здоровий спосіб життя, дізнатися цікаве та корисне про спорт та багато чого іншого!", "Доброго дня! Я бот, який допоможе тобі вести здоровий спосіб життя, дізнатися цікаве та корисне про спорт та багато чого іншого!  " ]
+        },
+        "languageCode": "uk"
+      } ]
+    },
+    "name": "5f70aadc-a917-4b25-bfdb-232c3b0119dc"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Advices",
+    "name": "072cfbe1-49a1-4602-b9d7-8b6d22a0639d"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Я тебе не розумію.", "Я не зовсім розумію, про що йдеться.", "Це мені не дуже зрозуміло.", "Не розумію, повтори, будь ласка.", "Перепрошую, повтори ще раз.", "Не розумію, що ти маєш на увазі?" ]
+        },
+        "languageCode": "uk"
+      } ],
+      "enableGenerativeFallback": true
+    },
+    "name": "a26a49af-9d36-4427-9016-dd852d6f8df6"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Я тебе не розумію.", "Я не зовсім розумію, про що йдеться.", "Це мені не дуже зрозуміло.", "Не розумію, повтори, будь ласка.", "Перепрошую, повтори ще раз.", "Не розумію, що ти маєш на увазі?" ]
+        },
+        "languageCode": "uk"
+      } ]
+    },
+    "name": "801bc50f-c9ff-46ce-8b4f-1abfbac3035d"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.69999999
+  },
+  "knowledgeConnectorSettings": {
+    "enabled": true,
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.knowledge.answers[0]" ]
+        },
+        "languageCode": "uk"
+      }, {
+        "languageCode": "uk",
+        "knowledgeInfoCard": {
+          "maximumSnippets": 1
+        }
+      } ]
+    },
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/605020323734/locations/global/collections/default_collection/dataStores/chatbot-faq_1710445996856",
+      "languageCode": "uk",
+      "documentProcessingMode": "DOCUMENTS"
+    } ]
+  }
+}

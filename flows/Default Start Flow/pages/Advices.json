@@ -1,0 +1,65 @@
+{
+  "name": "8e015757-6332-4348-bfc3-459a4fdc7537",
+  "displayName": "Advices",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Чим я можу допомогти?", "Чим можу бути корисний?", "Які є питання?" ]
+      },
+      "languageCode": "uk"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Diet",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Diet",
+    "name": "0a786076-6ca7-458d-8785-bf56f887f65d"
+  }, {
+    "intent": "Bones",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Bones",
+    "name": "5254602f-873f-4d49-9ca4-2a6555927451"
+  }, {
+    "intent": " LowerCholesterolFoods",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Продукти з високим вмістом розчинних волокон та ненасичених жирів, такі як овес, яблука, оливкова олія та авокадо, можуть допомогти знизити рівень холестерину в крові." ]
+        },
+        "languageCode": "uk"
+      } ]
+    },
+    "name": "061b5eea-b2aa-4d04-a35d-ca696398f9db"
+  }, {
+    "intent": "Nothing",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "END_FLOW_WITH_HUMAN_ESCALATION",
+    "name": "bdcbcef9-e1a7-465b-8e78-260a2038f154"
+  } ],
+  "knowledgeConnectorSettings": {
+    "enabled": true,
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.knowledge.answers[0]" ]
+        },
+        "languageCode": "uk"
+      } ]
+    },
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/605020323734/locations/global/collections/default_collection/dataStores/chatbot-faq_1710445996856",
+      "languageCode": "uk",
+      "documentProcessingMode": "DOCUMENTS"
+    } ]
+  }
+}

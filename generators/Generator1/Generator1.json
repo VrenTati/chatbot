@@ -1,0 +1,17 @@
+{
+  "name": "c2a41056-0aa5-4fc3-9847-c696ce7f9eb2",
+  "displayName": "Generator1",
+  "placeholders": [ {
+    "id": "AdviceTopic",
+    "name": "AdviceTopic"
+  } ],
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "text-bison"
+  }
+}

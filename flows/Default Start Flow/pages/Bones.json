@@ -1,0 +1,24 @@
+{
+  "name": "cd9f6c09-3fc4-49b1-937f-fd55b3a1f662",
+  "displayName": "Bones",
+  "form": {
+  
+  },
+  "knowledgeConnectorSettings": {
+    "enabled": true,
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.knowledge.answers[0]" ]
+        },
+        "languageCode": "uk"
+      } ]
+    },
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/605020323734/locations/global/collections/default_collection/dataStores/chatbot-faq_1710445996856",
+      "languageCode": "uk",
+      "documentProcessingMode": "DOCUMENTS"
+    } ]
+  }
+}

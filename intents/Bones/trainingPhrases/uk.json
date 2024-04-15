@@ -1,0 +1,77 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Які продукти допомагають підтримувати здоров'я "
+    }, {
+      "text": "кісток",
+      "parameterId": "Organs"
+    }, {
+      "text": " "
+    }, {
+      "text": "та",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "зубів",
+      "parameterId": "Organs"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "uk"
+  }, {
+    "parts": [ {
+      "text": "Яка їжа",
+      "parameterId": "location",
+      "auto": true
+    }, {
+      "text": " корисна для "
+    }, {
+      "text": "кісток",
+      "parameterId": "Organs"
+    }, {
+      "text": " "
+    }, {
+      "text": "і",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "зубів",
+      "parameterId": "Organs"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "uk"
+  }, {
+    "parts": [ {
+      "text": "Які",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": " продукти сприяють здоров'ю "
+    }, {
+      "text": "кісток",
+      "parameterId": "Organs"
+    }, {
+      "text": " "
+    }, {
+      "text": "та",
+      "parameterId": "person1",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "зубів",
+      "parameterId": "Organs"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "uk"
+  } ]
+}

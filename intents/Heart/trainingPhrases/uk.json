@@ -1,0 +1,43 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Їжа для покращення роботи ",
+      "auto": true
+    }, {
+      "text": "сердця",
+      "parameterId": "dietary_restriction",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "uk"
+  }, {
+    "parts": [ {
+      "text": "Яка їжа корисна для "
+    }, {
+      "text": "здоров'я серця",
+      "parameterId": "dietary_restriction"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "uk"
+  }, {
+    "parts": [ {
+      "text": "Які",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": " продукти знижують рівень ",
+      "auto": true
+    }, {
+      "text": "холестерину",
+      "parameterId": "dietary_restriction",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "uk"
+  } ]
+}

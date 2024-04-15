@@ -1,0 +1,45 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Нічим",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "uk"
+  }, {
+    "parts": [ {
+      "text": "Бувай",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "uk"
+  }, {
+    "parts": [ {
+      "text": "Більше немає питань",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "uk"
+  }, {
+    "parts": [ {
+      "text": "Дякую, ",
+      "auto": true
+    }, {
+      "text": "це",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": " все",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "uk"
+  }, {
+    "parts": [ {
+      "text": "Кінець розмови",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "uk"
+  } ]
+}

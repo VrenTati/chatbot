@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Схуднення",
+    "synonyms": [ "Схуднення" ],
+    "languageCode": "uk"
+  }, {
+    "value": "Набір ваги",
+    "synonyms": [ "Набір ваги" ],
+    "languageCode": "uk"
+  }, {
+    "value": "Дієтичні обмеження",
+    "synonyms": [ "дієта", "Дієтичні обмеження" ],
+    "languageCode": "uk"
+  } ]
+}

@@ -1,0 +1,27 @@
+{
+  "entities": [ {
+    "value": "Цукровий діабет",
+    "synonyms": [ "діабет", "Цукровий діабет" ],
+    "languageCode": "uk"
+  }, {
+    "value": "Вегетеріантсво",
+    "synonyms": [ "Вегетеріантсво" ],
+    "languageCode": "uk"
+  }, {
+    "value": "Веганство",
+    "synonyms": [ "Веганство" ],
+    "languageCode": "uk"
+  }, {
+    "value": "Гіпертонія",
+    "synonyms": [ "Гіпертонія" ],
+    "languageCode": "uk"
+  }, {
+    "value": "Холестерин",
+    "synonyms": [ "здоров'я сердця", "Холестерин", "сердце" ],
+    "languageCode": "uk"
+  }, {
+    "value": "Алергія",
+    "synonyms": [ "Алергія" ],
+    "languageCode": "uk"
+  } ]
+}

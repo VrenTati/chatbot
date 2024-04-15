@@ -1,0 +1,19 @@
+{
+  "name": "16bc09f9-f6fc-42fc-9902-235d0ff5f2ff",
+  "displayName": " LowerCholesterolFoods",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  }, {
+    "id": "dietary_restriction",
+    "entityType": "@Dietary_Restriction"
+  }, {
+    "id": "person1",
+    "entityType": "@sys.person"
+  }, {
+    "id": "dietary_restriction1",
+    "entityType": "@Dietary_Restriction"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 3
+}

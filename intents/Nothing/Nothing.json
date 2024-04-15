@@ -1,0 +1,10 @@
+{
+  "name": "5db04de4-559b-4ddc-a608-00cbbb561510",
+  "displayName": "Nothing",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 5
+}

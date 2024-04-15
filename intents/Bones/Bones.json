@@ -1,0 +1,19 @@
+{
+  "name": "9a5578b2-7917-4b01-a496-1646d5542f26",
+  "displayName": "Bones",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  }, {
+    "id": "person1",
+    "entityType": "@sys.person"
+  }, {
+    "id": "location",
+    "entityType": "@sys.location"
+  }, {
+    "id": "Organs",
+    "entityType": "@Organs"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 3
+}

@@ -1,0 +1,45 @@
+{
+  "name": "5308ce31-4820-48d6-8734-2e1745b02839",
+  "displayName": "secondFlow",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+    
+    },
+    "name": "a1d8b519-2f97-4f5f-942f-a7c288637576"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Advice",
+    "name": "60e89316-e136-4c3a-9e2f-5422ab74bd8a"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Я тебе не розумію.", "Я не зовсім розумію, про що йдеться.", "Це мені не дуже зрозуміло.", "Не розумію, повтори, будь ласка.", "Перепрошую, повтори ще раз.", "Не розумію, що ти маєш на увазі?" ]
+        },
+        "languageCode": "uk"
+      } ]
+    },
+    "name": "2fc2ef7f-d12a-49f5-be69-dd95e4782e1d"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Я тебе не розумію.", "Я не зовсім розумію, про що йдеться.", "Це мені не дуже зрозуміло.", "Не розумію, повтори, будь ласка.", "Перепрошую, повтори ще раз.", "Не розумію, що ти маєш на увазі?" ]
+        },
+        "languageCode": "uk"
+      } ]
+    },
+    "name": "ece6f1ba-61fc-40ab-a9a9-f788f06bb310"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001
+  }
+}

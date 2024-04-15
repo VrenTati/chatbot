@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Спорт",
+    "synonyms": [ "Зал", "Зарядка", "Спорт", "Фітнес" ],
+    "languageCode": "uk"
+  }, {
+    "value": "Харчування",
+    "synonyms": [ "продукти", "Харчування" ],
+    "languageCode": "uk"
+  }, {
+    "value": "Дієта",
+    "synonyms": [ "Дієта", "схуднення" ],
+    "languageCode": "uk"
+  } ]
+}

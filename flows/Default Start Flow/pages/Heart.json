@@ -1,0 +1,32 @@
+{
+  "name": "352a591d-ea74-444a-8ff4-bc1421b19209",
+  "displayName": "Heart",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Кілька продуктів, які допомагають знизити рівень холестерину в крові та підтримують здоров'я серця, включають:\r\n- Олійні: оливкова олія та льняна олія.\r\n- Риба: лосось, сардини та тріска.\r\n- Овочі: броколі, шпинат та капуста.\r\n- Фрукти: яблука, апельсини та груші.\r\n- Цільні злаки: овес, ячмінь та рис.\r\n- Горіхи: горіхи, мигдаль та волоські горіхи.\r\n\r\nЦі продукти містять корисні речовини, що сприяють зниженню рівня холестерину в крові та покращують функціонування серця.\r\n" ]
+      },
+      "languageCode": "uk"
+    } ]
+  },
+  "knowledgeConnectorSettings": {
+    "enabled": true,
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.knowledge.answers[0]" ]
+        },
+        "languageCode": "uk"
+      } ]
+    },
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/605020323734/locations/global/collections/default_collection/dataStores/chatbot-faq_1710445996856",
+      "languageCode": "uk",
+      "documentProcessingMode": "DOCUMENTS"
+    } ]
+  }
+}

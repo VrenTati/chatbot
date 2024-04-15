@@ -1,0 +1,61 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Які продукти допомагають знизити рівень ",
+      "auto": true
+    }, {
+      "text": "холестерину",
+      "parameterId": "dietary_restriction",
+      "auto": true
+    }, {
+      "text": " в крові?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "uk"
+  }, {
+    "parts": [ {
+      "text": "Яка їжа може підвищити "
+    }, {
+      "text": "холестерин",
+      "parameterId": "dietary_restriction",
+      "auto": true
+    }, {
+      "text": " в крові?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "uk"
+  }, {
+    "parts": [ {
+      "text": "Які",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": " продукти корисні для ",
+      "auto": true
+    }, {
+      "text": "здоров'я серця",
+      "parameterId": "dietary_restriction",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "і",
+      "parameterId": "person1",
+      "auto": true
+    }, {
+      "text": " зниження рівня ",
+      "auto": true
+    }, {
+      "text": "холестерину",
+      "parameterId": "dietary_restriction1",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "uk"
+  } ]
+}

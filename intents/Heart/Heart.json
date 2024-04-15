@@ -1,0 +1,13 @@
+{
+  "name": "4669310f-1607-4a5d-a622-d8815957e7b1",
+  "displayName": "Heart",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  }, {
+    "id": "dietary_restriction",
+    "entityType": "@Dietary_Restriction"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 3
+}

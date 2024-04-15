@@ -1,0 +1,20 @@
+{
+  "fallbackSettings": {
+    "selectedPrompt": "Default",
+    "promptTemplates": [ {
+      "displayName": "Default",
+      "frozen": true
+    }, {
+      "displayName": "Example",
+      "promptText": "Ви - дружній помічник штучного інтелекту, який допомагає людям з $flow-description.\n\nЗокрема, ви можете $route-descriptions.\n\nРозмова між людиною та вами до цього була такою:\n${conversation USER:\"Human:\" AGENT:\"AI\"}\n\nПотім людина запитала:\n$last-user-utterance\n\nВи кажете:\n",
+      "frozen": true
+    } ]
+  },
+  "languageCode": "uk",
+  "knowledgeConnectorSettings": {
+    "business": "Human Computer Interaction"
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

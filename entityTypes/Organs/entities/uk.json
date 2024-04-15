@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "Кістки",
+    "synonyms": [ " зуби", "Кістки" ],
+    "languageCode": "uk"
+  }, {
+    "value": "Сердце",
+    "synonyms": [ "Сердце" ],
+    "languageCode": "uk"
+  }, {
+    "value": "М'язи",
+    "synonyms": [ "М'язи" ],
+    "languageCode": "uk"
+  }, {
+    "value": "Шлунок",
+    "synonyms": [ "Шлунок" ],
+    "languageCode": "uk"
+  } ]
+}

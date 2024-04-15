@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "Кальцій",
+    "synonyms": [ "Кальцій", "Ca" ],
+    "languageCode": "uk"
+  }, {
+    "value": "Вітамін D",
+    "synonyms": [ "Вітамін D", "D" ],
+    "languageCode": "uk"
+  }, {
+    "value": "Розчинні волокна",
+    "synonyms": [ "Розчинні волокна" ],
+    "languageCode": "uk"
+  }, {
+    "value": "Насичені жири",
+    "synonyms": [ "Насичені жири" ],
+    "languageCode": "uk"
+  } ]
+}

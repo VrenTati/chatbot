@@ -1,0 +1,29 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Розкажи про різні ",
+      "auto": true
+    }, {
+      "text": "дієти",
+      "parameterId": "health_goal",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "uk"
+  }, {
+    "parts": [ {
+      "text": "Які",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": " є ",
+      "auto": true
+    }, {
+      "text": "дієти",
+      "parameterId": "health_goal",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "uk"
+  } ]
+}
